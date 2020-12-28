@@ -7,8 +7,8 @@
 
 //-- Export Modules
 var request1 = require("request").defaults({ rejectUnauthorized: false });
-const dotenv = require("dotenv");
-dotenv.config();
+//const dotenv = require("dotenv");
+//dotenv.config();
 var Parse = require("parse/node").Parse;
 Parse.initialize(process.env.APP_ID, process.env.MASTER_KEY);
 
